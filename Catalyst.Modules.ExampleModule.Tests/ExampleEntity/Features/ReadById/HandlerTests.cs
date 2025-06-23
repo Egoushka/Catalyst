@@ -33,11 +33,7 @@ public class HandlerTests : BaseTest
 
     private Catalyst.ExampleModule.Example.Domain.Models.ExampleEntity SeedExampleEntity(int id)
     {
-        var stop = new Stop { Name = Faker.Address.StreetName() };
-        var model = new Model { Name = Faker.Vehicle.Model() };
         var type = new Type { Name = Faker.Commerce.Categories(1)[0] };
-        var serviceOrg = new ServiceOrganization { Name = Faker.Company.CompanyName() };
-        var manufacturer = new Manufacturer { Name = Faker.Company.CompanyName() };
 
         _dbContext.Types.Add(type);
         _dbContext.SaveChanges();
