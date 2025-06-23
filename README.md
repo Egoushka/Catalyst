@@ -1,4 +1,4 @@
-# Catalyst
+# Catalyst (DEVELOPMENT IN PROCESS)
 
 Catalyst is a modern, modular backend framework for building robust APIs and services with .NET. It’s designed with clean architecture principles, supporting scalable, high-performance solutions for any business domain.
 
